@@ -5,7 +5,8 @@ import java.util.List;
 import java.util.Scanner;
 
 // *****change here******
-import year2020.dayseven.Solution;
+import year2019.daytwo.Solution;
+// import year2020.dayeight.solution;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,7 +14,8 @@ public class Main {
 
         try {
             // *****change here******
-            File file = new File("./year2020/dayseven/input-day-7");
+            File file = new File("./year2019/daytwo/input");
+            // File file = new File("./year2020/dayeight/input-day-8");
             Scanner scanner = new Scanner(file);
             while (scanner.hasNextLine()) {
                 inputs.add(scanner.nextLine());
@@ -24,7 +26,8 @@ public class Main {
         }
 
         // *****change here******
-        int res = new Solution().calculateP2(inputs);
+        int res = new Solution().calculateP1(inputs);
+        // int res = new Solution().calculateP2(inputs);
         System.out.println(res);
     }
 }
