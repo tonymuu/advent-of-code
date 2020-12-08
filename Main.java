@@ -5,12 +5,12 @@ import java.util.List;
 import java.util.Scanner;
 
 // *****change here******
-import year2019.dayfour.Solution;
-// import year2020.dayeight.solution;
+// import year2019.dayfour.Solution;
+import year2020.dayeight.Solution;
 
 public class Main {
-    private static final String YEAR = "year2019";
-    private static final String DAY = "dayfour";
+    private static final String YEAR = "year2020";
+    private static final String DAY = "dayeight";
 
     public static void main(String[] args) {
         List<String> inputs = new ArrayList<>();
